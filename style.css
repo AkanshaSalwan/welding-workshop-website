@@ -399,3 +399,9 @@ footer a {
     margin-bottom: 30px;
   }
 }
+@media screen and (max-width: 560px) {
+  section .portfolio .cards1 .card1 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
