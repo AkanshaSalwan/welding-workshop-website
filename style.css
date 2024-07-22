@@ -356,6 +356,10 @@ footer a {
     width: calc(100% / 2 - 15px);
     margin-bottom: 30px;
   }
+  section .cards1 .card1 {
+    width: calc(100% / 2 - 15px);
+    margin-bottom: 30px;
+  }
 
   .homepage .content h1 {
     font-size: 40px;
@@ -395,5 +399,3 @@ footer a {
     margin-bottom: 30px;
   }
 }
-
-
