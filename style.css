@@ -63,7 +63,7 @@ header {
 header a, footer a {
   margin-left: 40px;
   text-decoration: none;
-  color: #3edde9;
+  color: #e0ecec;
   height: 100%;
   padding: 20px 0;
   display: inline-block;
@@ -77,7 +77,7 @@ header a:hover, footer a:hover {
   height: 100vh;
   width: 100%;
   position: relative;
-  background: url("main2.jpeg");
+  background: url("images/main2.jpeg");
   background-position: center 65%;
   background-size: cover;
   background-attachment: fixed;
@@ -159,6 +159,14 @@ section .cards {
   padding: 0 10px;
   justify-content: space-between;
 }
+section .cards1 {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-top: 50px;
+  padding: 0 10px;
+  justify-content: space-between;
+}
 
 section.about {
   margin: 0 auto;
@@ -181,8 +189,18 @@ section.about {
 .about .team ul {
   padding-left: 20px;
 }
-
+/*  */
 section .cards .card {
+  background: #fff;
+  padding: 40px 15px;
+  list-style: none;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+  margin-bottom: 40px;
+  width: calc(100% / 4 - 30px);
+  text-align: center;
+}
+section .cards1 .card1 {
   background: #fff;
   padding: 40px 15px;
   list-style: none;
@@ -192,12 +210,13 @@ section .cards .card {
   width: calc(100% / 3 - 30px);
   text-align: center;
 }
+/*  */
 
-.portfolio .cards .card {
+.portfolio .cards1 .card1 {
   padding: 0 0 20px;
 }
 
-.services .card img {
+.contact .card img {
   width: 120px;
   height: 120px;
   margin-bottom: 20px;
@@ -205,7 +224,7 @@ section .cards .card {
   object-fit: cover;
 }
 
-.portfolio .card img {
+.portfolio .card1 img {
   width: 100%;
   padding-bottom: 10px;
   aspect-ratio: 16 / 9;
@@ -213,7 +232,7 @@ section .cards .card {
   border-radius: 7px;
 }
 
-.cards .card p {
+.cards1 .card1 p {
   padding: 0 15px;
   margin-top: 5px;
 }
@@ -222,7 +241,7 @@ section .cards .card {
   padding: 0 10px;
 }
 
-.contact .row {
+/* .contact .row {
   margin: 60px 0 90px;
   display: flex;
   max-width: 1200px;
@@ -238,9 +257,9 @@ section .cards .card {
 
 .contact .col p {
   margin-bottom: 10px;
-}
+} */
 
-.contact .col p i {
+/* .contact .col p i {
   color: #7a7a7a;
   margin-right: 10px;
 }
@@ -263,9 +282,9 @@ section .cards .card {
   outline: none;
   resize: vertical;
   border: 1px solid #bfbfbf;
-}
+} */
 
-.contact form button {
+/* .contact form button {
   margin-top: 10px;
   padding: 10px 20px;
   font-size: 17px;
@@ -279,7 +298,7 @@ section .cards .card {
 
 .contact form button:hover {
   background: #525252;
-}
+} */
 
 footer {
   width: 100%;
