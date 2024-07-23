@@ -129,6 +129,7 @@ header a:hover, footer a:hover {
   transition: 0.4s ease;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   text-decoration: none;
+
 }
 
 .content a:hover {
@@ -240,6 +241,8 @@ section .cards1 .card1 {
 .about .row {
   padding: 0 10px;
 }
+
+
 
 /* .contact .row {
   margin: 60px 0 90px;
@@ -419,6 +422,7 @@ footer a {
   transition: background-color 0.3s ease, transform 0.3s ease;
   cursor: pointer;
   margin-top: 20px;
+  margin-bottom: 20px;
   
   
 }
@@ -441,4 +445,47 @@ footer a {
     text-align: justify;
     margin-bottom: 10px;
   }
+
+
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.card p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.card p i {
+    margin-right: 10px;
+    color: #007bff;
+}
+.card p:first-of-type {
+    font-weight: bold;
+    font-size: 18px;
+}
 
