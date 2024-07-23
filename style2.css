@@ -417,6 +417,10 @@ footer a {
     margin-right: 10px;
     color: #007bff;
 }
+.card p:first-of-type {
+    font-weight: bold;
+    font-size: 18px;
+}
 header {
     background-color: #333;
     color: #fff;
