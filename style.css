@@ -405,3 +405,40 @@ footer a {
     margin-bottom: 30px;
   }
 }
+
+.styled-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #dcddde;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  margin-top: 20px;
+  
+  
+}
+
+.styled-button a{
+  text-decoration: none;
+}
+.styled-button:hover {
+  background-color: #aab1b9;
+  transform: scale(1.05);
+}
+.styled-button:active {
+  background-color: #c4cbd3;
+}
+
+
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+
